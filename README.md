@@ -1,6 +1,6 @@
 # Convert RAW Quickdraw datafiles into Stroke-5 format with RDP at variable epsilon
 
-This notebook will convert `.ndjson` files into the `.npz` files one can use to train sketch-rnn. We set the target length to be 200 steps, and vary epsilon parameters to control the granuarity of the RDP algorithm.
+The notebook [convert_ndjson.ipynb](https://github.com/hardmaru/quickdraw-ndjson-to-npz/blob/master/convert_ndjson.ipynb) will convert `.ndjson` files into the `.npz` files one can use to train sketch-rnn. We set the target length to be 200 steps, and vary epsilon parameters to control the granuarity of the RDP algorithm.
 
 To download an `.ndjson` file, try:
 
